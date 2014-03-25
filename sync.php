@@ -260,6 +260,15 @@
 				// Reset. This will reset changed files to the last commit
 
 				if ( !$branchConfig->bare ) {
+					//saving uncommitted stuff
+					$command = 'git stash';
+					$returncode = _executeCommand('Stashing.', $command);
+					if($returnCode) {
+						// Error, stop execution
+						_emailSupport($projectConfig->supportEmail);
+						break;
+					}
+					
 					$command = 'git reset --hard';
 					$returnCode = _executeCommand('Reseting.', $command);
 					if($returnCode) {
