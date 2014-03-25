@@ -23,7 +23,8 @@
 </head>
 <body style="background-color: #404040; color: #FFFFFF;">
 
-<?php
+<?php	
+	putenv("PATH=" .$_ENV["PATH"]. ':/usr/local/bin');
 
 	////////////////////////////////
 	// Init variables			 //
