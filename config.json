@@ -1,0 +1,17 @@
+{
+	"supportEmail": "guntis.e@gmail.com",
+	"supportEmailFrom": "sync.php@partneris.lv",
+	"logs": false,
+	"retryOnErrorCount": 2,
+	"projects": {
+		"articles": {
+			"remote": "git@github.com:xguntis/documentation.git",
+			"supportEmail": "guntis.e@gmail.com",
+			"branches": {
+				"master": {
+					"local": "/home/partneri/public_html/documentation/"
+				}
+			}
+		}
+	}
+}
