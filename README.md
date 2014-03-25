@@ -1,0 +1,4 @@
+documentation
+=============
+
+Partneris.lv Documentation
