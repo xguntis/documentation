@@ -1,1 +1,0 @@
-/home/xguntis/Dropbox/Partneris/my_extensions/OPENCART_DRAFT/payment-lpb-medoro/readme.md
